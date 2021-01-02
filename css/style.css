@@ -10,6 +10,17 @@
 {
     box-shadow: 0 5px 10px #efefef;
     text-transform: uppercase;
+    
+    
+}
+.nav-item
+{
+    padding:0%;
+}
+.nav-item:hover
+{
+    background-color:#efefef;
+
 }
 .logo
 {
@@ -19,6 +30,10 @@
 .icon-bar
 {
     background: darkorange;
+}
+.example-style
+{
+    padding-top: 20px;
 }
 li a
 {
@@ -38,4 +53,7 @@ li a
 .img-responsive
 {
     height: 40px;
+}
+.ful li {
+    padding: 0px!important;
 }
