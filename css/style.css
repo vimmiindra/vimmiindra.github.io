@@ -24,3 +24,18 @@ li a
 {
     color: black;
 }
+.title-name
+{
+    font-family: verdana;
+    font-size: 40px;
+    color: orangered;
+}
+.sub-heading
+{
+    font-family: verdana;
+    font-size: 15px;
+}
+.img-responsive
+{
+    height: 40px;
+}
