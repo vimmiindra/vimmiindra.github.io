@@ -4,12 +4,36 @@
 }
 .header
 {
-    height: 100vh;
+     height: 100vh; 
 }
 .navbar-style
 {
+    
     box-shadow: 0 5px 10px #efefef;
     text-transform: uppercase;
+        
+}
+.navbar-style ul li
+{
+    
+    padding:0%;
+    float: left;
+    position: relative;
+    
+}
+
+.nav-item
+{
+    
+    padding:0%;
+}
+.nav-item a:hover
+{
+    background-color:#efefef;
+    transition: 0.3s;
+    visibility: visible;
+
+
 }
 .logo
 {
@@ -20,6 +44,10 @@
 {
     background: darkorange;
 }
+.example-style
+{
+    padding-top: 20px;
+}
 li a
 {
     color: black;
@@ -27,15 +55,21 @@ li a
 .title-name
 {
     font-family: verdana;
-    font-size: 40px;
+    font-size: 30px;
+
+    margin-top: 30px;
     color: orangered;
+    /*border-style: solid;*/
 }
 .sub-heading
 {
     font-family: verdana;
-    font-size: 15px;
+    font-size: 20px;
 }
 .img-responsive
 {
     height: 40px;
 }
+.carousel-inner > .item {
+    height: 400px;
+ }

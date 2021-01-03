@@ -1,0 +1,10 @@
+.carousel-style
+{
+    width: auto;
+}
+
+.carousel-inner img
+{
+    max-width:100%;
+    max-height: auto;
+}

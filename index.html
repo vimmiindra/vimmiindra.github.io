@@ -3,40 +3,57 @@
 <head>
     <title> Vimmi Indra</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
     <header class="header">
-    <nav class="navbar navbar-style">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href=""><img class="logo" src="assets/logo.png"></a>
-                
-            </div>
-            <div class="collapse navbar-collapse" id="micon">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="">Home</a></li>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Exhbitions</a></li>
-                <li><a href="">Camps</a></li>
-                <li><a href="">Contact Me</a></li>
-            </ul>
-            </div>
-        </div>
-    </nav>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-style"> 
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto"> 
+                <li class="nav-item"> 
+                    <a class="nav-link" href="index.html">About Me</a> 
+                </li> 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Paintings
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="oil_on_masonite.html">Oil on Masonite</a>
+                      <a class="dropdown-item" href="drawings.html">Ink on Paper</a>
+                      
+                    </div>
+                  </li>
+                <li class="nav-item"> 
+                    <a class="nav-link" href="#"> Exhibitions</a> 
+                </li> 
+                <li class="nav-item"> 
+                    <a class="nav-link" href="#"> Camps</a> 
+                </li> 
+                <li class="nav-item"> 
+                    <a class="nav-link" href="#"> Workshops </a> 
+                </li> 
+                <li class="nav-item"> 
+                    <a class="nav-link" href="#"> Awards </a> 
+                </li> 
+                <li class="nav-item"> 
+                    <a class="nav-link" href="#"> Gallery </a> 
+                </li> 
+                <li class="nav-item"> 
+                    <a class="nav-link" href="#"> Contact </a> 
+                </li> 
 
-    <div class="container">
+            </ul> 
+        </div>
+        </nav> 
+
+    <div class="container-fluid example-style">
         <div class="row">
             <div class="col-sm-8">
                 <h1 class="title-name">Vimmi Indra</h1>
@@ -62,9 +79,18 @@
             </div>
         </div>
     </div>
+    
+</header>
 
-    </header>
+    <footer class="footer">
+        <div class="container upper_border">
+        <p class="text-center">
+            Copyright@2021 | Made by Sashrika Surya
+        </p>
+    </div>
+        
 
+    </footer>
 </body>
 
 </html>
