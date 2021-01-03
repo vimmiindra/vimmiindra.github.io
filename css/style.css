@@ -8,18 +8,31 @@
 }
 .navbar-style
 {
+    
     box-shadow: 0 5px 10px #efefef;
     text-transform: uppercase;
+        
+}
+.navbar-style ul li
+{
     
+    padding:0%;
+    float: left;
+    position: relative;
     
 }
+
 .nav-item
 {
+    
     padding:0%;
 }
-.nav-item:hover
+.nav-item a:hover
 {
     background-color:#efefef;
+    transition: 0.3s;
+    visibility: visible;
+
 
 }
 .logo
@@ -54,6 +67,6 @@ li a
 {
     height: 40px;
 }
-.ful li {
-    padding: 0px!important;
-}
+.carousel-inner > .item {
+    height: 400px;
+ }
