@@ -12,7 +12,7 @@ body
 }
 .home
 {
-    background-image:linear-gradient(rgba(185, 185, 185, 0.438),rgba(185, 185, 185, 0.308)),url('/Users/sashrikasurya/Documents/vimmiindra.github.io/assets/background.jpg');
+    background-image:linear-gradient(rgba(185, 185, 185, 0.438),rgba(185, 185, 185, 0.308)),url('assets/background.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
