@@ -3,17 +3,15 @@
     padding: 0;
 }
 
-.header
-{
-    height: 100vh; 
-    position: relative;
-
-}
 
 body
 {
     height: 100vh;
     width: 100%;
+    
+}
+.home
+{
     background-image:linear-gradient(rgba(185, 185, 185, 0.438),rgba(185, 185, 185, 0.308)),url('/Users/sashrikasurya/Documents/vimmiindra.github.io/assets/background.jpg');
     background-position: top;
     background-size: cover;
@@ -29,7 +27,7 @@ For background of navbar
 */
 .nav-item
 {
-    
+    margin: 0%;
     padding:0%;
 }
 
@@ -40,9 +38,10 @@ For background of navbar
     visibility: visible;
 
 }
-.navbar-dark
+.navbar-style
 {
-    color: white;
+    box-shadow: 0 9px 7px -4px rgba(66, 66, 66, 0.137);
+    /*box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);*/
 }
 .title{
     color: rgb(255, 255, 255);
